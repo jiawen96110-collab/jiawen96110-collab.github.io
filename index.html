@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>个人精选保险产品合集</title>
+    <title>精选保险产品合集</title>
     <style>
         /* 全局样式重置 */
         *{margin:0;padding:0;box-sizing:border-box;font-family:"Microsoft Yahei",sans-serif;}
@@ -34,126 +34,187 @@
             font-weight:600;
         }
 
-        /* 单个产品卡片样式 */
+        /* 产品卡片 */
         .product-card{
             background:#ffffff;
             padding:14px 18px;
             border-radius:10px;
             margin-bottom:10px;
             box-shadow:0 1px 4px rgba(0,0,0,0.05);
-            transition: all 0.2s ease;
         }
-        .product-card:hover{
-            background:#f0f5ff;
-            transform: translateY(-1px);
-        }
-        /* 产品跳转链接 */
-        .product-card a{
-            color:#333333;
-            text-decoration:none;
+        .product-name{
             font-size:16px;
+            margin-bottom:6px;
+        }
+        /* 产品亮点标签 */
+        .product-tag{
+            display:flex;
+            flex-wrap:wrap;
+            gap:6px;
+        }
+        .tag{
+            font-size:12px;
+            padding:3px 8px;
+            border-radius:4px;
+            background:#eef4ff;
+            color:#1d4ed8;
+        }
+
+        /* 链接样式 */
+        .product-card a{
+            color:#333;
+            text-decoration:none;
             display:block;
         }
 
-        /* 底部个人信息 */
+        /* 底部 */
         .footer{
             text-align:center;
             margin-top:40px;
             padding:20px;
-            color:#666666;
+            color:#666;
             font-size:14px;
         }
     </style>
 </head>
 <body>
 
-    <div class="title">常用优质保险产品</div>
+<div class="title">常用优质保险产品</div>
 
-    <!-- 第一大类：意外险专区 -->
-    <div class="module">
-        <div class="module-title">🎯 综合意外险专区</div>
+<!-- 意外险 -->
+<div class="module">
+    <div class="module-title">🎯 综合意外险专区</div>
 
-        <div class="product-card">
-            <a href="https://cps.qixin19.com/apps/cps/szh1009174/product/detail?prodId=105091&planId=130465&tenantId=0&createTime=1776765972273" target="_blank">
-                小蜜蜂（畅享版）综合意外险经典版
-            </a>
-        </div>
-
-        <div class="product-card">
-            <a href="https://cps.qixin19.com/apps/cps/szh1009174/product/detail?prodId=105181&planId=130666&tenantId=0&createTime=1776765972273" target="_blank">
-                小蜜蜂6号综合意外险
-            </a>
-        </div>
-
-        <div class="product-card">
-            <a href="https://cps.qixin19.com/apps/cps/szh1009174/product/detail?prodId=105137&planId=130581&tenantId=0&createTime=1776765972273" target="_blank">
-                小神童7号少儿意外险
-            </a>
-        </div>
-
-        <div class="product-card">
-            <a href="https://cps.qixin19.com/apps/cps/szh1009174/product/detail?prodId=105259&planId=130842&tenantId=0&createTime=1776765972273" target="_blank">
-                孝心安6号中老年人意外险
-            </a>
-        </div>
-
-        <div class="product-card">
-            <a href="https://m.baodan100.com/insurance/detail?id=179252&chn=cps_201544192" target="_blank">
-                中国人保大护甲8号意外险(高龄版)
-            </a>
-        </div>
-
-        <div class="product-card">
-            <a href="https://m.baodan100.com/insurance/detail?id=179074&chn=cps_201544192" target="_blank">
-                中国人保大护甲8号意外险(旗舰版)
-            </a>
-        </div>
-
-        <div class="product-card">
-            <a href="https://m.baodan100.com/insurance/detail?id=179049&chn=cps_201544192" target="_blank">
-                中国人保大护甲8号意外险(1-6类职业版)
-            </a>
-        </div>
+    <div class="product-card">
+        <a href="https://cps.qixin19.com/apps/cps/szh1009174/product/detail?prodId=105091&planId=130465&tenantId=0&createTime=1776765972273" target="_blank">
+            <div class="product-name">小蜜蜂（畅享版）综合意外险经典版</div>
+            <div class="product-tag">
+                <span class="tag">保障全面</span>
+                <span class="tag">百万保额</span>
+                <span class="tag">性价比高</span>
+            </div>
+        </a>
     </div>
 
-    <!-- 第二大类：医疗险专区 -->
-    <div class="module">
-        <div class="module-title">🏥 百万医疗&长期保证续保医疗险</div>
-
-        <div class="product-card">
-            <a href="https://cps.qixin19.com/apps/cps/szh1009174/product/detail?prodId=105251&planId=130833&tenantId=0&createTime=1776765972273" target="_blank">
-                复星联合星相守2号长期医疗险（20年保证续保）（家庭版）
-            </a>
-        </div>
-
-        <div class="product-card">
-            <a href="https://cps.qixin19.com/apps/cps/szh1009174/product/detail?prodId=105252&planId=130834&tenantId=0&createTime=1776765972273" target="_blank">
-                复星联合星相守2号长期医疗险（20年保证续保）（个人版）
-            </a>
-        </div>
-
-        <div class="product-card">
-            <a href="https://cps.qixin19.com/apps/cps/szh1009174/product/detail?prodId=105089&planId=130460&tenantId=0&createTime=1776765972273" target="_blank">
-                长相安3号庆典版（免健告）百万医疗险经典版
-            </a>
-        </div>
-
-        <div class="product-card">
-            <a href="https://cps.qixin19.com/apps/cps/szh1009174/product/detail?prodId=105328&planId=130946&tenantId=0&createTime=1776765972273" target="_blank">
-                众安众民保·中高端医疗险2026（个人版）
-            </a>
-        </div>
-
-        <div class="product-card">
-            <a href="https://m.baodan100.com/insurance/detail?id=176462&chn=cps_201544192" target="_blank">
-                中国人保金医保3号长期百万医疗险
-            </a>
-        </div>
+    <div class="product-card">
+        <a href="https://cps.qixin19.com/apps/cps/szh1009174/product/detail?prodId=105181&planId=130666&tenantId=0&createTime=1776765972273" target="_blank">
+            <div class="product-name">小蜜蜂6号综合意外险</div>
+            <div class="product-tag">
+                <span class="tag">高伤残赔付</span>
+                <span class="tag">不限社保医疗</span>
+            </div>
+        </a>
     </div>
 
-    <!-- 底部免责&个人联系方式 -->
-    <div class="footer">
+    <div class="product-card">
+        <a href="https://cps.qixin19.com/apps/cps/szh1009174/product/detail?prodId=105137&planId=130581&tenantId=0&createTime=1776765972273" target="_blank">
+            <div class="product-name">小神童7号少儿意外险</div>
+            <div class="product-tag">
+                <span class="tag">少儿专属</span>
+                <span class="tag">门诊0免赔</span>
+            </div>
+        </a>
     </div>
+
+    <div class="product-card">
+        <a href="https://cps.qixin19.com/apps/cps/szh1009174/product/detail?prodId=105259&planId=130842&tenantId=0&createTime=1776765972273" target="_blank">
+            <div class="product-name">孝心安6号中老年人意外险</div>
+            <div class="product-tag">
+                <span class="tag">高龄可投</span>
+                <span class="tag">骨折高额保障</span>
+            </div>
+        </a>
+    </div>
+
+    <div class="product-card">
+        <a href="https://m.baodan100.com/insurance/detail?id=179252&chn=cps_201544192" target="_blank">
+            <div class="product-name">中国人保大护甲8号意外险(高龄版)</div>
+            <div class="product-tag">
+                <span class="tag">80岁可投</span>
+                <span class="tag">央企保障</span>
+            </div>
+        </a>
+    </div>
+
+    <div class="product-card">
+        <a href="https://m.baodan100.com/insurance/detail?id=179074&chn=cps_201544192" target="_blank">
+            <div class="product-name">中国人保大护甲8号意外险(旗舰版)</div>
+            <div class="product-tag">
+                <span class="tag">保障全面</span>
+                <span class="tag">医疗0免赔</span>
+            </div>
+        </a>
+    </div>
+
+    <div class="product-card">
+        <a href="https://m.baodan100.com/insurance/detail?id=179049&chn=cps_201544192" target="_blank">
+            <div class="product-name">中国人保大护甲8号意外险(1-6类职业版)</div>
+            <div class="product-tag">
+                <span class="tag">高危职业可投</span>
+                <span class="tag">国企承保</span>
+            </div>
+        </a>
+    </div>
+</div>
+
+<!-- 百万医疗 -->
+<div class="module">
+    <div class="module-title">🏥 百万医疗险&中高端医疗险</div>
+
+    <div class="product-card">
+        <a href="https://cps.qixin19.com/apps/cps/szh1009174/product/detail?prodId=105251&planId=130833&tenantId=0&createTime=1776765972273" target="_blank">
+            <div class="product-name">复星联合星相守2号长期医疗险（20年保证续保）（家庭版）</div>
+            <div class="product-tag">
+                <span class="tag">20年保证续保</span>
+                <span class="tag">家庭投保优惠</span>
+            </div>
+        </a>
+    </div>
+
+    <div class="product-card">
+        <a href="https://cps.qixin19.com/apps/cps/szh1009174/product/detail?prodId=105252&planId=130834&tenantId=0&createTime=1776765972273" target="_blank">
+            <div class="product-name">复星联合星相守2号长期医疗险（20年保证续保）（个人版）</div>
+            <div class="product-tag">
+                <span class="tag">20年稳定续保</span>
+                <span class="tag">癌症0免赔</span>
+            </div>
+        </a>
+    </div>
+
+    <div class="product-card">
+        <a href="https://cps.qixin19.com/apps/cps/szh1009174/product/detail?prodId=105089&planId=130460&tenantId=0&createTime=1776765972273" target="_blank">
+            <div class="product-name">长相安3号庆典版（免健告）百万医疗险经典版</div>
+            <div class="product-tag">
+                <span class="tag">免健康告知</span>
+                <span class="tag">保证续保</span>
+            </div>
+        </a>
+    </div>
+
+    <div class="product-card">
+        <a href="https://cps.qixin19.com/apps/cps/szh1009174/product/detail?prodId=105328&planId=130946&tenantId=0&createTime=1776765972273" target="_blank">
+            <div class="product-name">众安众民保·中高端医疗险2026（个人版）</div>
+            <div class="product-tag">
+                <span class="tag">私立医院可报</span>
+                <span class="tag">住院+门诊0免赔</span>
+            </div>
+        </a>
+    </div>
+
+    <div class="product-card">
+        <a href="https://m.baodan100.com/insurance/detail?id=176462&chn=cps_201544192" target="_blank">
+            <div class="product-name">中国人保金医保3号长期百万医疗险</div>
+            <div class="product-tag">
+                <span class="tag">长期保证续保</span>
+                <span class="tag">国企大品牌</span>
+            </div>
+        </a>
+    </div>
+</div>
+
+<div class="footer">
+   保险公司官方投保渠道
+</div>
 
 </body>
 </html>
